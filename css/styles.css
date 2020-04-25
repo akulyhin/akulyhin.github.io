@@ -191,12 +191,6 @@ h3 {
 }
 .theme-button::before {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0;
-  z-index; -1;
 }
 .light-theme .theme-button::before {
   background-image: url('../img/moon-normal.svg');
