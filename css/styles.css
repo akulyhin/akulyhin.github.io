@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #f5f7fa;
   padding: 20px;
   font-size: 14px;
@@ -183,26 +183,26 @@ h3 {
   padding: 7px 30px;
   cursor: pointer;
   position: relative;
-  z-index:1;
+  z-index: 1;
 }
 .theme-button:hover {
   color: #fff;
   background: #6653d9;
 }
 .theme-button::before {
-  content: '';
+  content: "";
 }
 .light-theme .theme-button::before {
-  background-image: url('../img/moon-normal.svg');
+  background-image: url("../img/moon-normal.svg");
 }
 .light-theme .theme-button:hover::before {
-  background-image: url('../img/moon-hover.svg');
+  background-image: url("../img/moon-hover.svg");
 }
 .theme-button::before {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: 7px;
+  top: 11px;
   left: 10px;
 }
 .dark-theme.wrapper {
@@ -223,7 +223,7 @@ h3 {
 }
 
 .dark-theme .theme-button::before {
-  background-image: url('../img/sun-normal.svg');
+  background-image: url("../img/sun-normal.svg");
 }
 
 .dark-theme .theme-button:hover {
@@ -232,7 +232,7 @@ h3 {
 }
 
 .dark-theme .theme-button:hover::before {
-  background-image: url('../img/sun-hover.svg');
+  background-image: url("../img/sun-hover.svg");
 }
 /* Change-theme-buttom END */
 ol {
