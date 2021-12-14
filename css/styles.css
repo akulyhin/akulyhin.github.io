@@ -14,14 +14,13 @@ body {
   background: #fff;
   display: flex;
   max-width: 1200px;
-  height: 1320px;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   transition: all 0.7s ease;
 }
 .sidebar {
   width: 370px;
-  height: 1320px;
+  height: 100%;
   background: #1e2939;
   padding: 40px 0;
   color: #fff;
@@ -39,7 +38,7 @@ aside img {
   margin-bottom: 55px;
 }
 .contacts-container a {
-  color: #595959;
+  color: #c0c0c0;
   font-weight: 400;
   text-transform: none;
   padding-left: 10px;
