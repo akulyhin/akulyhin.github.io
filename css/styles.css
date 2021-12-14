@@ -251,6 +251,9 @@ ul {
     height: auto;
     padding-bottom: 40px;
   }
+  .print-button {
+    display: none;
+  }
   .sidebar {
     width: 100%;
     height: auto;
@@ -289,6 +292,23 @@ ul {
     text-transform: uppercase;
     padding: 20px 40px;
   }
+}
+
+@media print {
+
+  body {
+    padding: 0;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .change-theme {
+    display: none;
+  }
+
 }
 
 .project-container ul span {
