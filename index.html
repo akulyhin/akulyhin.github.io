@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <!-- /CSS -->
+
 
     <title>Artem Kulyhin - Web Developer FullStack</title>
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!-- /Bootstrap CSS -->
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-    <!-- /Fonts -->
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/ee95a972dc.js" crossorigin="anonymous"></script>
-    <!-- /Font Awesome -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <!-- /CSS -->
   </head>
   <body>
     <!-- Main Container -->
@@ -132,7 +127,7 @@
         <!-- button change theme END -->
 
         <div>
-          <h2>Front-End Developer</h2>
+          <h2>JavaScript Developer (React, Node.js)</h2>
           <h1>Artem Kulyhin</h1>
 
           <p class="about-me-discription">
@@ -147,19 +142,65 @@
           <h3>Projects</h3>
           <ol>
             <li>
-              <a href="https://lovecamp.allinsol.com/">https://lovecamp.allinsol.com/</a>
-              <span>................................</span>
-              [ <span>HTML5, CSS3</span> ]
+              <h5>Чат-бот погоды</h5>
+              <ul>
+                <li>
+                  <span>Link:</span>
+                  <a target="_blank" href="https://t.me/calltrack_bot">t.me/calltrack_bot</a>
+                </li>
+                <li>
+                  <span>Technologies:</span>
+                   <span>[</span> PHP <span>]</span>
+                </li>
+                <li><span>About projects:</span>
+                  Чат-бот отвечает на некоторые тригерные слова, а так же подключен к двум API-сервисам: погода, праздники. Сформировав запрос: Погода Киев, чат-бот в ответ пришлет данные погоды для города, который указан после слова "Погода".
+                </li>
+              </ul>
             </li>
+
             <li>
-              <a href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-              <span>..........................................</span>
-              [ <span>JavaScript</span> ]
+              <h5>Calltrack - сервис подмены номера для любого сайта</h5>
+              <ul>
+                <li>
+                  <span>Link:</span>
+                  <a target="_blank" href="https://calltrack.com.ua">calltrack.com.ua</a>
+                </li>
+                <li>
+                  <span>Technologies:</span>
+                   <span>[</span> PHP, MySQL, javaScript + jquery, Ajax, HTML, CSS <span>]</span>
+                </li>
+                <li><span>About projects:</span>
+                  <p>Бесплатный сервис, который позволяет после регистрации добавить скрипт на свой сайт, а в админке сервиса добавить номера телефонов и источники трафика.</p>
+                  <p>Данный скрипт будет подменять номера телефонов в зависимости от иcточника трафика (utm-метки), что позволит отслеживать эффективность каждого источника.</p>
+                  <p>В дальнейшем возможно вносить любые изменения в админке (менять источники, телефоны) и все изменения тут же будут применены к сайту (не нужно менять скрипт).</p>
+                </li>
+              </ul>
             </li>
+
             <li>
-              <a href="https://kidslike.goit.co.ua/">https://kidslike.goit.co.ua/</a>
-              <span>..........................................</span>
-              [ <span>React.js, Node.js</span> ]
+              <h5>Eplace - коробочные интернет-магазины</h5>
+              <ul>
+                <li>
+                  <span>Link:</span>
+                  <a target="_blank" href="https://eplace.com.ua">eplace.com.ua</a>
+                </li>
+                <li>
+                  <span>Technologies:</span>
+                   <span>[</span>Git, PHP, javaScript + jquery, GULP, SASS, HTML, CSS <span>]</span>
+                </li>
+                <li><span>About projects:</span>
+                  <p>Проект по продаже, поддержке коробочных решений для электронной коммерции на CMS Opencart.</p>
+
+                  <ul>
+                  <b>На данном сайте настроено:</b>
+                    <li>Передача целей и конверсий в Google Analyctics и Facebook Pixel</li>
+                    <li>Передача лидов в Битрикс24</li>
+                    <li>Есть сервис по генерации UTM-меток (<a href="https://eplace.com.ua/utm/" target="_blank">https://eplace.com.ua/utm/</a>)</li>
+                    <li>Есть сервис по расчету эффективности рекламы (<a href="https://eplace.com.ua/roistat/" target="_blank">https://eplace.com.ua/roistat/</a>)</li>
+                  </ul>
+                  Сайт после релиза был "натянут" на WordPress для удобства в дальнейшем публиковать статьи.
+                </li>
+              </ul>
             </li>
           </ol>
         </div>

@@ -20,7 +20,7 @@ body {
 }
 .sidebar {
   width: 370px;
-  height: 100%;
+  height: auto;
   background: #1e2939;
   padding: 40px 0;
   color: #fff;
@@ -96,17 +96,17 @@ h3 {
 /* About Me END */
 
 /* Project */
-.project-container li {
-  font-weight: 700;
-}
+
 .project-container li a {
-  color: #595959;
-  text-decoration: none;
+  color: #ff6b08;
   font-weight: 400;
 }
 .project-container li span {
   font-weight: 400;
-  color: #595959;
+}
+
+.project-container ul {
+  margin-bottom: 15px;
 }
 .project-container h3 {
   margin-bottom: 13px;
@@ -216,7 +216,6 @@ h3 {
   background: transparent;
 }
 .dark-theme p,
-.dark-theme a,
 .dark-theme li {
   color: #ccc !important;
 }
@@ -290,4 +289,13 @@ ul {
     text-transform: uppercase;
     padding: 20px 40px;
   }
+}
+
+.project-container ul span {
+  font-weight: 600;
+}
+
+.project-container h5 {
+  font-weight: 700;
+  font-size: 16px;
 }
