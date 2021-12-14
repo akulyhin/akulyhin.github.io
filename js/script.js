@@ -1,7 +1,20 @@
-let page = document.querySelector('.wrapper');
-let themeButton = document.querySelector('.theme-button');
+const page = document.querySelector('.wrapper');
+const themeButton = document.querySelector('.theme-button');
 
-themeButton.onclick = function () {
+if (localStorage.getItem('theme')) {
+  page.classList.add('dark-theme');
+  page.classList.remove('light-theme');
+}
+
+themeButton.addEventListener('click', () => {
   page.classList.toggle('dark-theme');
   page.classList.toggle('light-theme');
-};
+
+  if (localStorage.getItem('theme')) {
+    localStorage.removeItem('theme');
+  }
+
+  else {
+    localStorage.setItem('theme', true);
+  }
+});
