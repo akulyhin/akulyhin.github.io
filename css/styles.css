@@ -175,6 +175,9 @@ h3 {
   top: 30px;
   right: 30px;
 }
+.theme-button {
+  position: relative;
+}
 .light-theme .theme-button {
   color: #6653d9;
   border: 1px solid #6653d9;
