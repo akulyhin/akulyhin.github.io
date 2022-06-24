@@ -243,6 +243,15 @@ ul {
   padding-left: 20px;
 }
 
+.project-container ul span {
+  font-weight: 600;
+}
+
+.project-container h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 /* Мобильная верстка */
 @media screen and (max-width: 769px) {
   body {
@@ -297,6 +306,7 @@ ul {
   }
 }
 
+
 @media print {
 
   body {
@@ -312,13 +322,12 @@ ul {
     display: none;
   }
 
-}
+  .sidebar {
+    width: 370px;
+    height: auto;
+    background: #1e2939;
+    padding: 40px 0;
+    color: #fff;
+  }
 
-.project-container ul span {
-  font-weight: 600;
-}
-
-.project-container h5 {
-  font-weight: 700;
-  font-size: 16px;
 }
